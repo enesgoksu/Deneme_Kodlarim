@@ -11,6 +11,8 @@
             // string surname = Console.ReadLine();
             // Console.WriteLine("Merhaba, " + name +" "+ surname);
 
+            Console.WriteLine("***********************");
+
             // int vize,final;
             // decimal ort;
             // Console.WriteLine("İsminiz: ");
@@ -25,6 +27,8 @@
             // final = int.Parse(Console.ReadLine());
             // ort = (vize * 30 / 100) + (final * 70 /100);
             // Console.WriteLine("İsim Soyisim,"+ name+" "+ surname +" "+ "ortalamanız: "+ ort);
+
+            Console.WriteLine("***********************");
 
             // string Email = "enesgoksu@outlook.com";
             // string Password = "12345";
@@ -43,8 +47,9 @@
             // else if((email != Email) && (password != Password))
             //     Console.WriteLine("Email ve password bilgileriniz yanlıştır.");
 
-            
+            Console.WriteLine("***********************");
 
+            
             // Console.WriteLine("Bir sayı girin: ");
             // int sayi = int.Parse(Console.ReadLine());
 
@@ -68,7 +73,29 @@
             //         Console.WriteLine(cifttoplam);
             //         Console.WriteLine(tektoplam);
 
-            
+            Console.WriteLine("***********************");
+
+            int[] arr = {1,5,0,-1,-8};
+            int positivenumbers = 0;
+            int negativenumbers = 0;
+            int zeronumbers = 0;
+            int arraylength = arr.Count();
+
+            for (int i = 0; i < arr.Count(); i++)
+            {
+                if(arr[i] > 0)
+                    positivenumbers ++;
+                else if(arr[i] < 0)
+                    negativenumbers ++;
+                else
+                    zeronumbers ++;
+            }
+
+                Console.WriteLine(Math.Round((double)positivenumbers / arraylength,6));
+                Console.WriteLine(Math.Round((double)negativenumbers / arraylength,6));
+                Console.WriteLine(Math.Round((double)zeronumbers / arraylength,6));
+
+
 
 
 
