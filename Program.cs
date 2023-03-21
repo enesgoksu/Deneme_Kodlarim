@@ -75,28 +75,57 @@
 
             Console.WriteLine("***********************");
 
-            int[] arr = {1,5,0,-1,-8};
-            int positivenumbers = 0;
-            int negativenumbers = 0;
-            int zeronumbers = 0;
-            int arraylength = arr.Count();
+            // int[] arr = {1,5,0,-1,-8};
+            // int positivenumbers = 0;
+            // int negativenumbers = 0;
+            // int zeronumbers = 0;
+            // int arraylength = arr.Count();
 
-            for (int i = 0; i < arr.Count(); i++)
-            {
-                if(arr[i] > 0)
-                    positivenumbers ++;
-                else if(arr[i] < 0)
-                    negativenumbers ++;
-                else
-                    zeronumbers ++;
-            }
+            // for (int i = 0; i < arr.Count(); i++)
+            // {
+            //     if(arr[i] > 0)
+            //         positivenumbers ++;
+            //     else if(arr[i] < 0)
+            //         negativenumbers ++;
+            //     else
+            //         zeronumbers ++;
+            // }
 
-                Console.WriteLine(Math.Round((double)positivenumbers / arraylength,6));
-                Console.WriteLine(Math.Round((double)negativenumbers / arraylength,6));
-                Console.WriteLine(Math.Round((double)zeronumbers / arraylength,6));
+            //     Console.WriteLine(Math.Round((double)positivenumbers / arraylength,6));
+            //     Console.WriteLine(Math.Round((double)negativenumbers / arraylength,6));
+            //     Console.WriteLine(Math.Round((double)zeronumbers / arraylength,6));
+            
+            // Çarpım Tablosu
+
+            // Console.WriteLine("Bir sayı giriniz: ");
+            // int sayi = int.Parse(Console.ReadLine());
+            
+            // for (int i = 1; i <= sayi; i++)
+            // {
+            //     Console.WriteLine(+sayi +"*"+i+"="+ sayi * i);
+            // }
+
+            // 10 tane sayı gir ve bu sayıların en büyüğü bana yazdır.
+           int[] numbers = new int[10];
+
+           Console.WriteLine("10 adet sayı giriniz: ");
+
+           for (int i = 0; i < numbers.Length; i++)
+           {
+                Console.Write("{0}. sayıyı girin: ", i+1);
+                numbers[i] = int.Parse(Console.ReadLine());
+           }
+
+                int maxnumber = numbers[0];
+            for (int i = 1; i < numbers.Length; i++)
+                {
+                    if(numbers[i] > maxnumber)
+                    maxnumber = numbers[i];
+                }
+                    Console.WriteLine(maxnumber);
 
 
-
+            
 
 
             
