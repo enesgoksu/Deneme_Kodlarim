@@ -26,23 +26,49 @@
             // ort = (vize * 30 / 100) + (final * 70 /100);
             // Console.WriteLine("İsim Soyisim,"+ name+" "+ surname +" "+ "ortalamanız: "+ ort);
 
-            string Email = "enesgoksu@outlook.com";
-            string Password = "12345";
+            // string Email = "enesgoksu@outlook.com";
+            // string Password = "12345";
 
-            Console.WriteLine("Email: ");
-            string email = Console.ReadLine();
-            Console.WriteLine("Password: ");
-            string password = Console.ReadLine();
+            // Console.WriteLine("Email: ");
+            // string email = Console.ReadLine();
+            // Console.WriteLine("Password: ");
+            // string password = Console.ReadLine();
 
-            if((email == Email) && (password == Password))
-                Console.WriteLine("Giriş yapıldı.");
-            else if((email != Email) && (password == Password))
-                Console.WriteLine("Email bilginiz yanlıştır.");
-            else if((email == Email) && (password != Password))
-                Console.WriteLine("Password bilginiz yanlıştır.");
-            else if((email != Email) && (password != Password))
-                Console.WriteLine("Email ve password bilgileriniz yanlıştır.");
+            // if((email == Email) && (password == Password))
+            //     Console.WriteLine("Giriş yapıldı.");
+            // else if((email != Email) && (password == Password))
+            //     Console.WriteLine("Email bilginiz yanlıştır.");
+            // else if((email == Email) && (password != Password))
+            //     Console.WriteLine("Password bilginiz yanlıştır.");
+            // else if((email != Email) && (password != Password))
+            //     Console.WriteLine("Email ve password bilgileriniz yanlıştır.");
 
+            
+
+            // Console.WriteLine("Bir sayı girin: ");
+            // int sayi = int.Parse(Console.ReadLine());
+
+            // for(int x = 1; x <= sayi; x++)
+
+            //     if(x % 2 == 1)
+            //         Console.WriteLine(x);
+
+            // int tektoplam = 0;
+            // int cifttoplam= 0;
+            // int sayi = int.Parse(Console.ReadLine());
+
+            // for(int x = 1; x <= sayi; x++)
+            //     if(x % 2 == 0)
+            //         cifttoplam += x;
+                        
+            //     else if(x % 2 == 1)
+            //         tektoplam += x;
+                        
+
+            //         Console.WriteLine(cifttoplam);
+            //         Console.WriteLine(tektoplam);
+
+            
 
 
 
