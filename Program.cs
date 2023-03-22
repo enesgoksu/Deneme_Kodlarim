@@ -116,7 +116,7 @@
         //    for (int i = 0; i < numbers.Length; i++)
         //    {
         //         Console.Write("{0}. sayıyı girin: ", i+1);
-        //         2
+        //         
         //    }
 
         //         int maxnumber = numbers[0];
@@ -163,16 +163,16 @@
                 Console.WriteLine("***********************");
                 // Bir mağazadan alınan ürünün fiyatı 100 tl ve üzerinde ise 5 tl olan kargı ücreti alınmamaktadır.Ürünün fiyatı girildiğin de toplam ödenmesi gereken tutarı gösteren program.
 
-                double ödemetutari;
-                Console.Write("Ürün Fiyatı: ");
-                int ürünFiyatı = int.Parse(Console.ReadLine());
+                // double ödemetutari;
+                // Console.Write("Ürün Fiyatı: ");
+                // int ürünFiyatı = int.Parse(Console.ReadLine());
 
-                if(ürünFiyatı >= 100)
-                    ödemetutari = ürünFiyatı;
-                else
-                    ödemetutari = ürünFiyatı + 5;
+                // if(ürünFiyatı >= 100)
+                //     ödemetutari = ürünFiyatı;
+                // else
+                //     ödemetutari = ürünFiyatı + 5;
                 
-                    Console.WriteLine("Toplam Ödeme Tutarınız {0} TL' dir.", ödemetutari);
+                //     Console.WriteLine("Toplam Ödeme Tutarınız {0} TL' dir.", ödemetutari);
                    
 
                 Console.WriteLine("***********************");
@@ -227,12 +227,37 @@
                 
 
                 Console.WriteLine("***********************");
-                //
-                        
-                    
-                   
+                // Haftanın Günlerini bir dizi içerisine atayarak ekranda gösterin.
+
+                // string[] günler = {"Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar"};
+                
+                // for (int i = 0; i < günler.Length; i++)
+                // {
+                //     Console.WriteLine(günler[i]);
+
+                // }
+
+                Console.WriteLine("***********************");       
+                // Bir dizi içerisindeki tüm sayıları toplayarak ortalamasını bulun.
+
+                // int[] sayilar = {23,45,18,89,65,4};
+                // double toplam = 0;
+                // double ort = 0;
+
+                // for (int i = 0; i < sayilar.Length; i++)
+                // {
+                //     toplam += sayilar[i]; 
+                // }
+
+                // ort = toplam / sayilar.Length;
+                // Console.WriteLine("Ortalama: "+ ort);
                      
                 
+                Console.WriteLine("***********************");  
+
+
+
+
                 
                     
 
