@@ -11,7 +11,7 @@
             // string surname = Console.ReadLine();
             // Console.WriteLine("Merhaba, " + name +" "+ surname);
 
-            Console.WriteLine("***********************");
+                Console.WriteLine("***********************");
 
             // int vize,final;
             // decimal ort;
@@ -28,14 +28,14 @@
             // ort = (vize * 30 / 100) + (final * 70 /100);
             // Console.WriteLine("İsim Soyisim,"+ name+" "+ surname +" "+ "ortalamanız: "+ ort);
 
-            Console.WriteLine("***********************");
+                Console.WriteLine("***********************");
 
             // string Email = "enesgoksu@outlook.com";
             // string Password = "12345";
 
-            // Console.WriteLine("Email: ");
+            // Console.Write("Email: ");
             // string email = Console.ReadLine();
-            // Console.WriteLine("Password: ");
+            // Console.Write("Password: ");
             // string password = Console.ReadLine();
 
             // if((email == Email) && (password == Password))
@@ -47,7 +47,7 @@
             // else if((email != Email) && (password != Password))
             //     Console.WriteLine("Email ve password bilgileriniz yanlıştır.");
 
-            Console.WriteLine("***********************");
+                Console.WriteLine("***********************");
 
             
             // Console.WriteLine("Bir sayı girin: ");
@@ -73,7 +73,7 @@
             //         Console.WriteLine(cifttoplam);
             //         Console.WriteLine(tektoplam);
 
-            Console.WriteLine("***********************");
+                Console.WriteLine("***********************");
 
             // int[] arr = {1,5,0,-1,-8};
             // int positivenumbers = 0;
@@ -105,28 +105,136 @@
             //     Console.WriteLine(+sayi +"*"+i+"="+ sayi * i);
             // }
 
+                Console.WriteLine("***********************");
+
+
             // 10 tane sayı gir ve bu sayıların en büyüğü bana yazdır.
-           int[] numbers = new int[10];
+        //    int[] numbers = new int[10];
 
-           Console.WriteLine("10 adet sayı giriniz: ");
+        //    Console.WriteLine("10 adet sayı giriniz: ");
 
-           for (int i = 0; i < numbers.Length; i++)
-           {
-                Console.Write("{0}. sayıyı girin: ", i+1);
-                numbers[i] = int.Parse(Console.ReadLine());
-           }
+        //    for (int i = 0; i < numbers.Length; i++)
+        //    {
+        //         Console.Write("{0}. sayıyı girin: ", i+1);
+        //         2
+        //    }
 
-                int maxnumber = numbers[0];
-            for (int i = 1; i < numbers.Length; i++)
-                {
-                    if(numbers[i] > maxnumber)
-                    maxnumber = numbers[i];
-                }
-                    Console.WriteLine(maxnumber);
+        //         int maxnumber = numbers[0];
+        //     for (int i = 1; i < numbers.Length; i++)
+        //         {
+        //             if(numbers[i] > maxnumber)
+        //             maxnumber = numbers[i];
+        //         }
+        //             Console.WriteLine(maxnumber);
 
+
+                Console.WriteLine("***********************");
+
+
+             // Klavyeden öğrencinin 2 adet not bilgisini girildikten sonra, ortalama 50 ve üzeri ise "Geçti" değilse "Kaldı" yazdıran program.
+
+            // Console.Write("1.sinav notu: ");
+            // int sinav1 = int.Parse(Console.ReadLine());
+            // Console.Write("2.sinav notu: ");
+            // int sinav2 = int.Parse(Console.ReadLine());
+            // double ortalama = (sinav1 + sinav2) / 2;
+            // if(ortalama < 50)
+            //     Console.WriteLine("Ortalamanız: "+ ortalama +" "+"Dersten Kaldınız.");
+            // else
+            // {
+            //     Console.WriteLine("Ortalamanız: "+ ortalama+" "+" Dersten Geçtiniz.");
+            // }
+
+                
+                Console.WriteLine("***********************");  
+
+
+            // Klavyeden girilen sayının tek mi, çift mi olduğunu gösteren program
+
+            // Console.Write("Sayıyı giriniz: ");
+            // int sayi = int.Parse(Console.ReadLine());
+
+            // if(sayi % 2 == 0)
+            //     Console.WriteLine("Girmiş olduğunuz sayı: "+sayi+" "+" Çifttir.");
+            // else
+            //     Console.WriteLine("Girmiş olduğunuz sayı: "+sayi+" "+"Tektir");
 
             
+                Console.WriteLine("***********************");
+                // Bir mağazadan alınan ürünün fiyatı 100 tl ve üzerinde ise 5 tl olan kargı ücreti alınmamaktadır.Ürünün fiyatı girildiğin de toplam ödenmesi gereken tutarı gösteren program.
 
+                double ödemetutari;
+                Console.Write("Ürün Fiyatı: ");
+                int ürünFiyatı = int.Parse(Console.ReadLine());
+
+                if(ürünFiyatı >= 100)
+                    ödemetutari = ürünFiyatı;
+                else
+                    ödemetutari = ürünFiyatı + 5;
+                
+                    Console.WriteLine("Toplam Ödeme Tutarınız {0} TL' dir.", ödemetutari);
+                   
+
+                Console.WriteLine("***********************");
+                // Klavyeden girilen sayının negatif,pozitif veya sıfır olduğunu gösteren program.
+
+                // Console.Write("Sayıyı giriniz: ");
+                // int sayi = int.Parse(Console.ReadLine());
+                // if(sayi > 0)
+                //     Console.WriteLine("Girmiş olduğunuz sayı: "+sayi+" "+"Pozitiftir.");
+                // else if(sayi < 0)
+                //     Console.WriteLine("Girmiş olduğunuz sayı: "+sayi+" "+"Negatiftir");
+                // else
+                //     Console.WriteLine("Girmiş olduğunuz sayı: "+sayi+" "+"Sıfırdır");
+
+                Console.WriteLine("***********************");
+                //Kullanıcıdan girdiği iki sayı ve yapılacak işlem türü(toplama,çıkarma,çarpma,bölme) seçildiğinde sonucu hesaplayarak ekrandan gösteren program.
+
+                // double sonuc = 0;
+                // Console.Write("1.sayıyı giriniz: ");
+                // int sayi1 = int.Parse(Console.ReadLine());
+                // Console.Write("2.sayıyı giriniz: ");
+                // int sayi2 = int.Parse(Console.ReadLine());
+                // Console.WriteLine("Toplama için---> t \n Çıkarma için---> ç \n Çarpma için---> x \n");
+                // string islem = Console.ReadLine();
+                // if(islem == "t")
+                //     sonuc = sayi1 + sayi2;
+                // else if(islem == "ç")
+                //     sonuc = sayi1 - sayi2;
+                // else if(islem == "x")
+                //     sonuc = sayi1 * sayi2;
+                
+                // Console.WriteLine(sonuc);
+
+
+                Console.WriteLine("***********************");
+                //Klavyeden iki ürünün fiyatı girildiğin de toplam fiyat 200 TL'den fazla ise, 2.üründen %25 indirim yaparak ödenecek tutarı gösteren uygulamayı yapalım.
+
+                // Console.Write("1.ürün fiyatı: ");
+                // int ürün1 = int.Parse(Console.ReadLine());
+                // Console.Write("2.ürün fiyatı: ");
+                // int ürün2 = int.Parse(Console.ReadLine());
+                // double toplamFiyat = ürün1 + ürün2;
+                // double indirimliFiyat = 0;
+
+                
+                // if(toplamFiyat > 200)
+                //     indirimliFiyat = ürün1 + (ürün2 - ürün2 * 25 / 100);
+                    
+                // else
+                //     indirimliFiyat = ürün1 + ürün2;
+                //     Console.WriteLine("Ödeyeceğiniz tutar {0} TL dir.", indirimliFiyat);
+                
+
+                Console.WriteLine("***********************");
+                //
+                        
+                    
+                   
+                     
+                
+                
+                    
 
             
 
