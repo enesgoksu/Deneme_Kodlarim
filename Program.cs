@@ -251,12 +251,19 @@
 
                 // ort = toplam / sayilar.Length;
                 // Console.WriteLine("Ortalama: "+ ort);
-                     
-                
-                Console.WriteLine("***********************");  
+
+                Console.WriteLine("***********************"); 
+
+                int result = 1;
+                for (int i = 1; i < 8; i++)
+                {
+                    result = result + 1 * 8;
+                    Console.WriteLine(result);
+                }
 
 
 
+               
 
                 
                     
